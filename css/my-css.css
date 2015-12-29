@@ -16,3 +16,7 @@ hr {
 .nav, .nav-pills, .nav-work{
       padding-bottom: 40px;
 }
+
+.nav-menu{
+  padding-top: 10px;
+}
