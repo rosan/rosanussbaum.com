@@ -31,7 +31,13 @@ ul{
 }
 
 .image-posts{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: auto;
-}
+  padding: 20px;
+  float: right;
+  }
+  
+.image-posts-right{
+  float: right;
+  }
+  
+  
+
