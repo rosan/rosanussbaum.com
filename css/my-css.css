@@ -39,5 +39,13 @@ ul{
   float: right;
   }
   
+.work-content{
+  display: inline-block;
+  
+}
+
+.work-content-outer{
+  text-align: center;
+}
   
 
