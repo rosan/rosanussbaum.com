@@ -35,13 +35,24 @@ ul{
   padding-top: 40px;
 }
 
-.image-posts{
-  padding: 20px;
-  float: right;
+.image-posts {
+  padding-bottom: 10px;
+  
+
   }
   
+.inline-img img{
+  display: inline-block;
+}
+
 .image-posts-right{
   float: right;
+  padding-left: 10px;
+  }
+  
+  .image-posts-left{
+  float: left;
+  padding-right: 10px;
   }
   
 .work-content{
@@ -131,3 +142,18 @@ ul{
 }
 
 
+#tube1{
+  width:45%;
+}
+
+#tube2{
+  width:54%;
+}
+
+#drawing{
+  width:35%;
+}
+
+#flower{
+  width:35%;
+}
