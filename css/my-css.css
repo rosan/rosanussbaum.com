@@ -45,6 +45,10 @@ ul{
   display: inline-block;
 }
 
+.center-img img{
+  margin: auto; 
+}
+
 .image-posts-right{
   float: right;
   padding-left: 10px;
