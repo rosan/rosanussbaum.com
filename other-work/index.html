@@ -2,9 +2,9 @@
 layout: default
 ---
 <div class="row">
-  <div class="col-md-2">
+  <div class="col-md-2"> 
   </div>
-  <div class="col-md-8">
+  <div class="col-md-7">
     <ul class="post-list">
       {% for post in site.posts %}
         <li>
@@ -12,12 +12,19 @@ layout: default
           <h2>
            {{ post.title }}
           </h2>
-           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">permalink</a>
+           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="glyphicon glyphicon-link"></span></a>
           {{ post.content }}
         </li>
       {% endfor %}
     </ul>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-3">
+    <ul class="post-menu">
+        {% for post in site.posts %}
+        <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+         </li>
+        {% endfor %}
+      </ul>       
   </div>
 </div>

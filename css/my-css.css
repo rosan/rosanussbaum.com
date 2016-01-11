@@ -37,10 +37,27 @@ ul{
 
 .image-posts {
   padding-bottom: 10px;
-  
-
   }
-  
+
+.post-list li {
+  padding-top: 40px;
+}
+
+.post-menu{
+  padding-top: 80px;
+}
+
+.post-menu li{
+  padding-top: 10px;
+}
+
+.post-writing p{
+  line-height: 2;
+  font-size: 110%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
 .inline-img img{
   display: inline-block;
 }
@@ -145,13 +162,5 @@ ul{
   font-size: 100%;
 }
 
-
-#tube1{
-  width:45%;
-}
-
-#tube2{
-  width:54%;
-}
 
 
