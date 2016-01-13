@@ -28,11 +28,18 @@
       
       {{ content }}
       
+    </div>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-    </div>
+      <script>
+      $(function(){
+        $('.carousel').on('slid.bs.carousel', function() {
+          $('.vimeo-embed')[0].contentWindow.postMessage('{"method": "pause"}', '*'); 
+        });
+      });
+    </script>   
   </body>
 
 </html>
