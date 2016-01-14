@@ -47,12 +47,12 @@
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
       <script>
-      $(function(){
-        $('.carousel').on('slid.bs.carousel', function() {
-          $('.vimeo-embed')[0].contentWindow.postMessage('{"method": "pause"}', '*'); 
+        $(function(){
+          $('.carousel').on('slid.bs.carousel', function() {
+            $('.vimeo-embed').each(function(i, e){e.contentWindow.postMessage('{"method": "pause"}', '*')});
+          });
         });
-      });
-    </script>
+       </script>  
     
   </body>
 

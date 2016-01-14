@@ -200,3 +200,10 @@ a:hover{
 .panel-default{
     border-color: transparent;  
 }
+
+.navbar-default{
+  background-image:none;
+  background-color: transparent; 
+  border-color: transparent;
+  box-shadow: none;
+}
