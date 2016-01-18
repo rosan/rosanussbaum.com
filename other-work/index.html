@@ -1,24 +1,9 @@
 ---
 layout: default
+id: other work
 ---
 <div class="row">
-  <div class="col-md-2"> 
-  </div>
-  <div class="col-md-7">
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-
-          <h2>
-           {{ post.title }}
-          </h2>
-           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="glyphicon glyphicon-link"></span></a>
-          {{ post.content }}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="col-md-3">
+<div class="col-md-3">
     <ul class="post-menu">
         {% for post in site.posts %}
         <li>
@@ -26,5 +11,24 @@ layout: default
          </li>
         {% endfor %}
       </ul>       
+  </div>
+ 
+  <div class="col-md-7">
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <row>
+
+          <h2>
+           {{ post.title }}
+          </h2>
+           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="glyphicon glyphicon-link"></span></a>
+          {{ post.content }}
+          </row>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+   <div class="col-md-2"> 
   </div>
 </div>
