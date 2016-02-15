@@ -133,9 +133,13 @@ ul{
   color: black;
   
   text-shadow: none;
-  font-size: 80%;
+  font-size: 100%;
   margin: auto;
 
+}
+
+.work-description {
+    text-align: left;
 }
 
 .carousel-inner>.item.active, .carousel-inner>.item.next.left, .carousel-inner>.item.prev.right{
@@ -161,10 +165,6 @@ ul{
 
 }
 
-.work-description{
-  text-align: center;
-  font-size: 100%;
-}
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   
