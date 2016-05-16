@@ -207,3 +207,13 @@ a:hover{
   border-color: transparent;
   box-shadow: none;
 }
+
+.glyphicon-fullscreen{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  top: inherit;
+  padding: 7px;
+  color: white;
+
+}
