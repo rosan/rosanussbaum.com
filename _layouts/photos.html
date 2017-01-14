@@ -1,0 +1,31 @@
+
+  {% include head.html %} 
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        {% include nav-bar.html %}
+      </div>
+      <hr>
+
+     <div class="row main-page">
+
+        {% include nav-bar-work.html %}
+        {% include nav-bar-work-burger.html %}
+            
+      <div class="col-md-9">
+        <div class= "row-fluid" style="white-space: nowrap">
+        
+        
+        
+           {{ content }}
+         
+        </div>
+      </div> <!--colum-->
+    </row>     
+
+  </div>
+    
+    
+  </body>
+
+</html>
