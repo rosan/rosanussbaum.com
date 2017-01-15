@@ -86,20 +86,36 @@ id: about
       </div>
       
        <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFive">
+        <div class="panel-heading" role="tab" id="headingSix">
           <h4 class="panel-title">
             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseFive">
               Writing by and about
             </a>
           </h4>
         </div>
-        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
          <div class="panel-body">
             {% include writing.html %}
           </div>
+        
 
         </div>
       </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingSeven">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Professional
+            </a>
+          </h4>
+        </div>
+        <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+          <div class="panel-body">
+            {% include professional-experience.html %}
+          </div>
+         </div>
+       </div>
       
     </div><!--accordion-->
   </div><!--col-md-8-->

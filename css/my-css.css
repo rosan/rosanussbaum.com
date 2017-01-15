@@ -177,7 +177,7 @@ ul{
 }
 
 a{
-  color: #476b6b;
+  color: #5F5F5F;
 }
 
 a:hover{
@@ -221,4 +221,27 @@ a:hover{
 
 #player{
 	background-color: white;
+}
+
+.image-side-scroll{
+  display: inline-block;
+  padding-bottom: 100px;
+  padding-right: 50px;
+}
+
+.collab-credit{
+  font-size: 70%;
+}
+
+.audio{
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.h2, h2 {
+  font-size: 20px;
+}
+
+.h5, h5{
+  font-weight: bold;
 }
