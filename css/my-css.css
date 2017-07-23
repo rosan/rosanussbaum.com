@@ -143,6 +143,10 @@ ul{
     text-align: left;
 }
 
+.scroll-right {
+    text-align: left;
+}
+
 .carousel-inner>.item.active, .carousel-inner>.item.next.left, .carousel-inner>.item.prev.right{
   margin-top: 25px;
  }  
@@ -271,3 +275,4 @@ a:hover{
 }
 
 
+ 
