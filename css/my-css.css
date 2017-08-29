@@ -275,4 +275,21 @@ a:hover{
 }
 
 
+.gif-container {
+    position: relative;
+    
+
+}
+
+.gif {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: none;
+    margin:auto;
+    left:-50%;
+    right:0;
+    padding-top: 20%;
+   
+}
  
