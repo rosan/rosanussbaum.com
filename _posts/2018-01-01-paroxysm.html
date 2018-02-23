@@ -1,0 +1,51 @@
+---
+layout: post
+id: paroxysm
+title: Paroxysm
+---
+
+<div class="row">
+  <div class="col-med-6">
+    <img src="/post-images/paroxysm/lovesense-toy-only.jpg" class="img-responsive image-posts" alt="lovesense lush">
+  </div>
+  
+  
+  <div class="col-med-6">
+  
+    <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a href="#paroxysm" aria-hidden="true" class="anchor" id="user-content-paroxysm"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Paroxysm</h1>
+<p>A collection of modes for your Lovense vibrator</p>
+<p>Modes:</p>
+<ul>
+<li><code>market</code> - control your vibrator according to inverse stock market momentum</li>
+<li><code>morse</code> - read, via morse code vibrations, the <a href="http://emuseum.cornell.edu/view/objects/asitem/items$0040:43716" rel="nofollow">Interior Scroll by Carolee Schneemann</a></li>
+<li><code>neo</code> - track asteroids approaching the Earth via pulses (frequency = distance, intensity = momentum) - data from <a href="https://cneos.jpl.nasa.gov/ca/" rel="nofollow">CNEOS</a></li>
+</ul>
+<h2><a href="#requirements" aria-hidden="true" class="anchor" id="user-content-requirements"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements</h2>
+<ul>
+<li>A <a href="https://www.lovense.com/" rel="nofollow">Lovense</a> device that uses Bluetooth LE (e.g. the Lush but not the Max or Nora)</li>
+<li>A working BlueZ stack with the <code>gatttool</code> command available on your path</li>
+<li>A (free) api-key from <a href="https://www.alphavantage.co/" rel="nofollow">Alpha Vantage</a> <em>(required for <code>market</code> only)</em></li>
+</ul>
+<h2><a href="#running" aria-hidden="true" class="anchor" id="user-content-running"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Running</h2>
+<p>Copy <code>Config.toml.example</code> to <code>Config.toml</code> and configure each property.</p>
+<pre><code>bd_addr = "A1:B2:C3:D4:E5:F6"
+alphavantage_api_key = "ABCD1234EFGH5678"
+</code></pre>
+<p><code>bd_addr</code> is the Bluetooth address of your Lovense device. This is always required.
+You may omit <code>alphavantage_api_key</code> if you do not wish to run <code>market</code>.</p>
+<p>Then build and run (e.g. via cargo):</p>
+<pre><code>$ cargo run -- morse
+</code></pre>
+</article>
+  </div>
+  
+  
+  </div>
+</div>  
+  
