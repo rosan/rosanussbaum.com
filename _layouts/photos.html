@@ -1,5 +1,5 @@
 
-  {% include head.html %} 
+  {% include head.html %}
   <body>
     <div class="container-fluid">
       <div class="row">
@@ -11,18 +11,29 @@
 
         {% include nav-bar-work.html %}
         {% include nav-bar-work-burger.html %}
-            
-      <div class="col-md-10" style="overflow-x: scroll">
-        
+
+      <div class="col-md-10">
+        <div class="col-md-12" style="overflow-x: scroll">
+
+
          {{ content }}
-         
-      </div> <!--colum-->
+
+       </div> <!--colum-->
       <!--find . -name "*.jpg" | xargs -n1 identify -format "%w\n" | paste -sd+ |bc-->
-    </row>     
+      <p>
+      →
+      </p>
+      {% if page.id == "gog" %}
+        {% include description.html %}
+      {% endif %}
+      </div>
+    </div>
+
 
   </div>
-    
-    
+
+
+
   </body>
 
 </html>

@@ -68,31 +68,31 @@ ul{
 }
 
 .center-img img{
-  margin: auto; 
+  margin: auto;
 }
 
 .image-posts-right{
 	float: left;
   padding-left: 10px;
   }
-  
+
   .image-posts-left{
   float: left;
   padding-right: 10px;
   }
-  
+
 .work-content{
   display: inline-block;
-  
+
 }
 
 .work-content-outer{
   text-align: center;
 }
-  
+
 .project-content {
   padding-top: 0px;
-}  
+}
 
 .project-content p{
   padding-left: 20px;
@@ -113,11 +113,11 @@ ul{
 }
 
 .control-container{
- position: absolute; 
- 
+ position: absolute;
+
  top: 0px;
- 
- 
+
+
 }
 
 .carousel-control:hover,
@@ -132,7 +132,7 @@ ul{
   left: auto;
   right: auto;
   color: black;
-  
+
   text-shadow: none;
   font-size: 100%;
   margin: auto;
@@ -149,8 +149,8 @@ ul{
 
 .carousel-inner>.item.active, .carousel-inner>.item.next.left, .carousel-inner>.item.prev.right{
   margin-top: 25px;
- }  
- 
+ }
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a>img, .thumbnail>img {
 
   display:block;
@@ -172,8 +172,8 @@ ul{
 
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  
-  color: black; 
+
+  color: black;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -199,16 +199,16 @@ a:hover{
 
 .panel-default>.panel-heading{
   background-image:none;
-  background-color: transparent;  
+  background-color: transparent;
 }
 
 .panel-default{
-    border-color: transparent;  
+    border-color: transparent;
 }
 
 .navbar-default{
   background-image:none;
-  background-color: transparent; 
+  background-color: transparent;
   border-color: transparent;
   box-shadow: none;
 }
@@ -233,6 +233,9 @@ a:hover{
   padding-right: 50px;
 }
 
+.image-side-scroll iframe{
+  vertical-align: middle;
+}
 
 .collab-credit{
   font-size: 70%;
@@ -263,7 +266,7 @@ a:hover{
     position: relative;
     display: block;
     width:100%
-    
+
 }
 
 .video-small{
@@ -285,7 +288,7 @@ a:hover{
 
 .gif-container {
     position: relative;
-    
+
 
 }
 
@@ -298,10 +301,18 @@ a:hover{
     left:-50%;
     right:0;
     padding-top: 20%;
-   
+
 }
 
 .row{
   padding-top:5px;
 }
- 
+
+ .img-padding{
+   padding: 10px;
+ }
+
+ .description{
+   color: #5F5F5F;
+   font-family: 'Lato', sans-serif;
+ }
