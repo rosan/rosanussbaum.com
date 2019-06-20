@@ -319,5 +319,24 @@ a:hover{
 
  .img-responsive-s{
    width:80%;
-   
+
  }
+.second-video{
+  padding-top: 2%;
+}
+
+.living{
+
+  position: absolute;
+  transform: rotate(90deg);
+
+  transform-origin: bottom left;
+  width: 100vh;
+  height: 100vw;
+  margin-top: -100vw;
+  object-fit: cover;
+
+  z-index: 4;
+  visibility: visible;
+
+}
