@@ -275,6 +275,36 @@ a:hover{
   bottom: 39%;
 }
 
+.video-paradise-l{
+  position: absolute;
+  left:377px;
+  bottom: 65%;
+}
+.video-paradise-r{
+  position: absolute;
+  left:457px;
+  bottom: 65.3%;
+}
+
+.video-paradise-l1{
+  position: absolute;
+  left:100px;
+  bottom: 64%;
+}
+.video-paradise-r1{
+  position: absolute;
+  left:505px;
+  bottom: 64%;
+}
+
+.paradise-vid{
+  margin-bottom: 50%;
+}
+
+.annoucement{
+  color:pink;
+  font-weight: bold;
+}
 .audio-small{
   position: absolute;
   left:200px;
