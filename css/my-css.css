@@ -370,3 +370,58 @@ a:hover{
   visibility: visible;
 
 }
+
+.shovel{
+  cursor: url('/images/shovel.png') 0 30, auto;
+}
+
+
+
+#top-image{
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+#lower-image{
+  position: absolute;
+  top: 26px;
+  left:50px;
+  z-index: -1;
+}
+
+#lower-image-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+#lower-image-2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+
+#lower-image-3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -4;
+}
+
+#lower-image-4{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+
+#lower-image-5{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -6;
+}
