@@ -378,16 +378,14 @@ a:hover{
 
 
 #top-image{
-  position: relative;
-  top: 0;
-  left: 0;
+  position: absolute;
 
 }
 
 #lower-image{
   position: absolute;
-  top: 26px;
-  left:50px;
+  top: 55px;
+  left: 85px;
   z-index: -1;
 }
 
