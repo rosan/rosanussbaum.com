@@ -1,0 +1,37 @@
+
+  {% include head.html %}
+  <body class="grass shovel">
+    <div class="container-fluid shovel">
+      <div class="row">
+
+
+      </div>
+
+     <div class="row main-page">
+
+       <div class="col-md-2">
+         <ul class="nav nav-pills nav-work nav-stacked hidden-xs">
+           <li role="presentation"{%if page.id =='welcome'%} class="active"{%endif%}><a class="wtmhp" href="{{ "/welcometomyhomepage" | prepend: site.baseurl }}">Residency Work</a></li>
+           <li role="presentation"{%if page.id =='bio'%} class="active"{%endif%}><a class="wtmhp" href="{{ "/bio" | prepend: site.baseurl }}">Bio</a></li>
+           <li role="presentation"><a class="wtmhp" href="{{ "https://www.welcometomyhomepage.net/about-residency" | prepend: site.baseurl }}">welcome to my homepage homepage</a></li>
+
+         </ul>
+       </div>
+
+
+
+      <div class="col-md-9">
+        <div class="project-content">
+
+
+           {{ content }}
+        </div>
+      </div> <!--colum-->
+    </div>
+
+  </div>
+
+
+  </body>
+
+</html>

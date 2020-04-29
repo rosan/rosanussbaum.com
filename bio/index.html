@@ -1,0 +1,22 @@
+---
+layout: wtmhp
+id: bio
+title: Bio
+---
+<div class="row">
+  <div class="container-fluid">
+
+  <img class="img-responsive" id="top-image" src="/images/wtmhp/Sandpit-ed.png" alt="sandpit">
+  <img class="img-responsive" id="lower-image-1" src="/images/wtmhp/cloud-gif.gif" alt="cloud-gif">
+
+  </div>
+</div>
+
+<script class="shovel" src="{{ "/js/jquery.eraser.js" | prepend: site.baseurl }}?{{ site.time | date: '%s' }}" type='text/javascript'></script>
+
+<script class="shovel">
+  $(function() {
+    $('#top-image').eraser();
+  });
+
+</script>

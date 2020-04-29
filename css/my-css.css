@@ -384,16 +384,16 @@ a:hover{
 
 #lower-image{
   position: absolute;
-  top: 55px;
-  left: 85px;
+  top: 30px;
+  left: 50px;
   z-index: -1;
 }
 
 #lower-image-1{
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
+  top: 31px;
+  left: 51px;
+  z-index: -1;
 }
 
 #lower-image-2{
@@ -424,6 +424,22 @@ a:hover{
   z-index: -6;
 }
 
+.grass{
+  background-image: url(/images/grass-tile.jpg);
+ background-repeat: repeat;
+}
+}
+
 body, html {
   height: 100%;
+}
+
+.wtmhp {
+  color: pink;
+  font-weight: bold;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>.wtmhp {
+  color: white;
+  font-weight: bold;
 }
